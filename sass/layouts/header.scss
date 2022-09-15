@@ -1,0 +1,15 @@
+.site-header{
+    height: 100px;
+
+    .site-branding{
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        a:hover{
+            transform: scale(1.1);
+            transition: all 0.2s linear 0s;
+        }
+    }
+}

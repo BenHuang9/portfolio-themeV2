@@ -1,0 +1,80 @@
+.portfolio-work{
+    .post-thumbnail{
+        display: none;
+    }
+
+
+    .singleproj-info{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+        
+        h3,p{
+            margin: 0;
+        }
+
+        .info-overview{
+            .externalLink .wp-block-group__inner-container{
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 10px;
+                gap: 0.5rem;
+
+                .wp-block-button{
+                    background-color: #24678d;
+                    a{
+                        padding:10px;
+                        color: white;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .wp-block-group{
+        p{
+            width: 90%;
+            margin: 0.5rem auto
+        };
+    }
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    .nav-previous,
+    .nav-next{
+        border-top: 3px solid;
+        border-radius: 0;
+        transition: all 0.2s linear 0s;
+        font-size: 1rem;
+        &:hover {
+            border-top: 3px solid #feae4b;
+            
+        }
+        a:hover{
+            color: $color__link;
+        }
+    }
+    
+}
+
+.postid-62 .navigation .nav-links {
+    justify-content: right;
+}
+
+.postid-65{
+    .content-plan{
+        width: 90%;
+        margin: 0 auto;
+        .content-plan-info{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+    }
+}

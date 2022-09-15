@@ -1,0 +1,51 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	padding-top: 1rem;
+}
+
+.site{
+    position: relative;
+	// max-width: 1100px;
+	margin: 0 auto;	
+
+	
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-input;
+	font-family: 'Montserrat', sans-serif;;
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.site-main {
+    overflow: hidden;
+    padding: 0 1rem;
+    margin-bottom: 7rem;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+@media (min-width:600px){
+	body{
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 5%;
+	}
+}
+
+h1,
+h2,
+h3{
+	color: #24678d;
+}
